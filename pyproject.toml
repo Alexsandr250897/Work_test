@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "work-test"
+version = "0.1.0"
+description = ""
+authors = ["Alexsandr250897 <132817845+Alexsandr250897@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymongo = "^4.10.1"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
